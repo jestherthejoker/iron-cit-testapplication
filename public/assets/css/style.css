@@ -1,0 +1,487 @@
+/**
+ * Font Importation
+ */
+
+@import "../fonts/gotham/stylesheet.css";
+
+/**
+ * Custom CSS From here
+ */
+body {
+    background-color: #2C0F29;
+    color: #FFFFFF;
+}
+
+* {
+    font-family: gothamlight;
+}
+
+.is-navigation {
+    background-color: transparent !important;
+}
+.is-navigation.navbar {
+    margin: 13.12px 14px;
+    padding: 0px;
+}
+.is-navigation a {
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 700;
+}
+.is-navigation .navbar-nav a {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+}
+
+/**
+Main Header Elements
+ */
+
+.is-topbanner  {
+    padding-top: 90px;
+    padding-bottom: 34px;
+}
+
+.is-topbanner .is-emblem-illu {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+}
+.is-topbanner img.is-ipdfcpp-logo {
+    margin-bottom: 40px;
+}
+
+.is-topbanner .head-line {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 54px;
+}
+.is-topbanner .tagline-1,
+.is-topbanner .tagline-2 {
+    line-height: 54px;
+    font-family: gothamblack;
+    font-size: 50px;
+    font-weight: 900;
+}
+.is-topbanner .tagline-2{
+    color: #C6AAC6;
+}
+.is-topbanner .comingsoon {
+    font-size: 14px;
+    color: #8F618F;
+}
+
+/**
+Subscription Area
+ */
+
+.is-subscription {
+    position: relative;
+    z-index: -2;
+    padding-top: 50px;
+    padding-bottom: 56px;
+    background: linear-gradient(90deg, #8E608E 28.16%, #402640 67.82%, #371A34 83.75%);
+}
+
+.is-subscription .area-headline  {
+    font-family: gothamblack;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 44px;
+}
+
+.is-subscription .area-headline-sub {
+    font-family: gothamblack;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.is-subscription .subscription-input {
+    background: #FFFFFF;
+    border: 3px solid #C6AAC6;
+    border-radius: 81px;
+}
+.is-subscription .subscription-input input {
+    border-radius: 50px;
+    height: 64px;
+    padding: 0px 0px 0px 26px;
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: 'gothamblack';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #431F43;
+}
+.is-subscription .subs-info .badge {
+    font-family: gothamblack;
+    color: #8F618F;
+    background-color: #C6AAC6 !important;
+    padding: 10px 18px;
+    border-radius: 50px;
+}
+.is-subscription .subs-info {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+}
+.is-subscription .subs-info .bold {
+    font-weight: 700;
+}
+
+.is-subscription .subscription-input button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+
+    font-family: gothamblack;
+    color: #FFFFFF;
+
+    width: 180px;
+    height: 64px;
+
+    background: #E01A59;
+    border-radius: 79px !important;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+
+.is-info1 {
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
+.is-info1 .image-badge{
+    position: relative;
+}
+.is-info1 .image-badge img {
+    position: absolute;
+    top: -40px;
+    right: -89px;
+}
+
+.is-info1 h2 .image-badge {
+    font-family: gothamblack;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 44px;
+}
+.is-info1 h2 {
+    margin-bottom: 50px;
+}
+
+.is-info1 li:nth-child(1) {
+    border-left: 0px #402640 solid;
+}
+.is-info1 li {
+    border-left: 1px #402640 solid;
+    padding-left: 26px;
+    padding-right: 10px;
+    font-size: 16px;
+}
+
+.is-info1 li span {
+    font-family: gothamblack;
+    font-style: normal;
+    font-weight: 900;
+}
+
+
+
+
+.is-info2 {
+    padding-top: 55px;
+    padding-bottom: 57px;
+    background: rgba(23, 6, 23, 0.3);
+    position: relative;
+}
+.is-info2 p {
+    text-justify: auto;
+    font-size: 16px;
+    line-height: 28px;
+}
+.is-info2 p span {
+    font-weight: bold;
+}
+
+
+
+
+.is-info3 {
+    padding-top: 100px;
+    padding-bottom: 101px;
+    background: #402640;
+    position: relative;
+}
+
+.is-info3 h3 {
+    font-family: gothamblack;
+    font-style: normal;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+.is-info3 h3 span {
+    font-family: gothamblack;
+    color: #C6AAC6;
+}
+
+.is-info3 p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.is-info3 img {
+    position: relative;
+    z-index: 2;
+}
+.is-info3 .bg-element {
+    position: absolute;
+    /*width: 150px;*/
+    width: 267.67px;
+    height: 175.78px;
+    left: 324px;
+    /*left: 120px;*/
+    top: 100.11px;
+
+    background: linear-gradient(122.46deg, #E01A59 -6.28%, #460A48 85.62%);
+    opacity: 0.8;
+    filter: blur(44.5px);
+
+    z-index: 0;
+}
+
+.is-info4 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #2C0F29;
+    position: relative;
+}
+.is-info4 h3 {
+    padding-bottom: 40px;
+}
+
+.is-info-4 p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.is-info4 h3 span {
+    font-family: gothamblack;
+    color: #C6AAC6;
+}
+
+.is-info4 .ipdf-release-card {
+    margin-top: 40px;
+}
+
+.is-info4 .ipdf-release-card .card {
+    background: rgba(23, 6, 23, 0.8);
+    border: 3px solid rgba(23, 6, 23, 0.8);
+    border-radius: 122px;
+    color: #C6AAC6;
+}
+
+.is-info4 .ipdf-release-card .card.active {
+    border: 3px solid #431F43;
+}
+
+.is-info4 .ipdf-release-card .card .badge {
+    font-family: gothamblack;
+    background-color: #331433;
+    border-radius: 50px;
+    padding: 8px 30px;
+    margin: 10px;
+    color: #C6AAC6;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.is-info4 .ipdf-release-card .card .badge.active {
+    background-color: #C6AAC6;
+    color: #331433;
+}
+
+
+.is-info4 .ipdf-release-card .card .serv .bold {
+    font-family: gothamblack;
+}
+.is-info4 .ipdf-release-card .card .serv {
+    display: block;
+    font-size: 26px;
+}
+
+.is-subscription-bottom {
+    padding-top: 55px;
+    padding-bottom: 55px;
+    background-color: #2C0F29;
+    position: relative;
+}
+
+.is-subscription-bottom h4 {
+    font-family: gothamblack;
+    font-size: 30px;
+}
+
+.is-subscription-bottom h4 .highlight {
+    font-family: gothamblack;
+    color: #C6AAC6;
+}
+
+.is-subscription-bottom .subscription-input {
+    background: #FFFFFF;
+    border: 3px solid #E7EEF0;
+    border-radius: 81px;
+    margin-top: 30px;
+}
+.is-subscription-bottom .subscription-input input {
+    border-radius: 50px;
+    height: 64px;
+    padding: 0px 0px 0px 26px;
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: 'gothamblack';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #431F43;
+}
+
+.is-subscription-bottom .subscription-input button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+
+    font-family: gothamblack;
+    color: #FFFFFF;
+
+    width: 180px;
+    height: 64px;
+
+    background: #E01A59;
+    border-radius: 79px !important;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+
+
+/**
+Helper classes
+ */
+
+.fs-28 {
+    font-size: 28px;
+}
+
+.backelement {
+    position: absolute;
+    width: 1000px;
+    height: 343px;
+    left: 137px;
+    top: 100px;
+
+    background: linear-gradient(144.39deg, #E01A59 -32.66%, #460A48 71.03%);
+    opacity: 0.3;
+    filter: blur(117.5px);
+}
+
+.backelement-info2 {
+    position: absolute;
+    width: 1000px;
+    height: 343px;
+    left: 137px;
+    top: 0px;
+
+    background: linear-gradient(144.39deg, #E01A59 -32.66%, #460A48 71.03%);
+    opacity: 0.3;
+    filter: blur(117.5px);
+}
+
+.is-ipdf {
+    position: relative;
+}
+.is-ipdf .is-page {
+}
+.is-ipdf .is-cpp {
+    position: absolute;
+    top: 50px;
+    right: -20px;
+    z-index: 2;
+}
+
+@media (max-width: 992px) {
+    .backelement-info2,
+    .backelement {
+        width: 750px !important;
+        left: 0px !important;
+    }
+
+    .bg-element {
+        left: 133px !important;
+    }
+
+    .ipdf-release-card .is-serv {
+        text-align: center;
+    }
+    .is-emblem-illu {
+        z-index: -2 !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .bg-element {
+        width: 150px  !important;
+        left: 120px !important;
+    }
+    .backelement-info2,
+    .backelement {
+        width: 350px !important;
+        left: 0px !important;
+    }
+    .is-info1 .image-badge img {
+        top: -67px;
+        right: -32px;
+    }
+    .ipdf-release-card .is-serv {
+        text-align: center;
+    }
+    .is-info1 li {
+        border-left: 0px #402640 solid;
+    }
+}
